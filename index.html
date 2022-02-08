@@ -143,7 +143,7 @@
           shoes section
     .........................-->
     <section class="container" id="shoes">
-        <h1>Shoes</h1>
+        <h1 class="product">Shoes</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
               <div class="card border-0 shadow-lg h-100">
@@ -196,7 +196,7 @@
           Bag section
     .........................-->
     <section class="container my-5" id="bagpack">
-        <h1>Bagpack</h1>
+        <h1 class="product">Bagpack</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
               <div class="card border-0 shadow-lg h-100">
@@ -208,7 +208,7 @@
                  
                 </div>
                 <div class="m-3">
-                      <button class="btn panda-button">By Now
+                      <button onclick="change()" id="click" class="btn panda-button">By Now 
                      </button>
                 </div>
               </div>
@@ -255,8 +255,8 @@
       <div >
         <h1>LET'S STAY IN TOUCH</h1>
       <p>Get updates on sales, specials and more</p>
-      <input class="form-control" type="text" placeholder="Enter your Email"><br>
-      <button class="btn panda-button ">Submit</button>
+      <input id="inputText" class="form-control" type="text" placeholder="Enter your Email"><br>
+      <button id="disabled" class="btn panda-button" disabled>Submit</button>
       </div>
 
     </section>
@@ -273,5 +273,10 @@
 
     <!-- bootstape script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+
+    </script>
+    <script src="./js/panda.js"></script>
 </body>
 </html>
