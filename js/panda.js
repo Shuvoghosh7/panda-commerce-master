@@ -45,7 +45,7 @@ changeColor.addEventListener('dblclick',function(){
 function changepicture(){
     document.getElementById('changeP').src = "images/shoes/shoe-3.png"
 }
-//another way without call function
+//another way change picture without call function
 const changePicture = document.getElementById('changeP')
 changePicture = document.addEventListener('onmouseover',function(){
     changePicture.src = "images/shoes/shoe-3.png";
