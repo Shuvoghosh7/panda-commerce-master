@@ -34,5 +34,19 @@ document.getElementById('inputText').addEventListener('keyup',function(event){
     }
 })
 
+// chenge color when dobule click in mouse
 
+const changeColor = document.getElementById('Subscrib');
+changeColor.addEventListener('dblclick',function(){
+    changeColor.style.backgroundColor='tomato';
+})
 
+// change picture when mouseenter and call function
+function changepicture(){
+    document.getElementById('changeP').src = "images/shoes/shoe-3.png"
+}
+//another way without call function
+const changePicture = document.getElementById('changeP')
+changePicture = document.addEventListener('onmouseover',function(){
+    changePicture.src = "images/shoes/shoe-3.png";
+})
